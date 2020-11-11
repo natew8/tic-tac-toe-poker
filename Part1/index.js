@@ -62,8 +62,8 @@ function play(clickedId){
       }
 }
 
-function reset(){
-    if(alert === true){
-        board
+    function reset(){
+        const blankBoard = document.getElementsByClassName('row')
+        for(i = 0; i < blankBoard.length; i++){
+        } 
     }
-}
